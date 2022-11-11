@@ -1,0 +1,91 @@
+﻿<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Love</title>
+
+    <link type="text/css" rel="stylesheet" href="./index_files/default.css">
+    <script type="text/javascript" src="./index_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./index_files/jscex.min.js"></script>
+    <script type="text/javascript" src="./index_files/jscex-parser.js"></script>
+    <script type="text/javascript" src="./index_files/jscex-jit.js"></script>
+    <script type="text/javascript" src="./index_files/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="./index_files/jscex-async.min.js"></script>
+    <script type="text/javascript" src="./index_files/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="./index_files/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./index_files/love.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./config.js"></script>
+    <style type="text/css">
+        <!--
+        .STYLE1 {
+            color: #666666
+        }
+        -->
+    </style>
+</head>
+
+<body>
+
+    <img src="https://ajlovechina.github.io/loveBalloon/static/music.png"
+        style="position: fixed;z-index: 10001;top:10px;right:10px;" onclick="">
+    <audio class="song-audio-autoplay" controls loop style="display: none;visibility: hidden">
+        <source src="./index_files/WayBackHomeFeatConorMaynardsamFeldtFestivalMix-SHAUN.mp3" type="audio/mp3" />
+    </audio>
+    <style type="text/css">
+        .rotateImages {
+            -webkit-animation: myRotate 10s linear infinite;
+            animation: myRotate 10s linear infinite;
+        }
+
+        @-webkit-keyframes myRotate {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(180deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes myRotate {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(180deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    </style>
+
+    <div id="main">
+        <div id="error">
+            error
+        </div>
+        <div id="wrap">
+            <div id="text">
+                <div id="code">
+                </div>
+            </div>
+            <div id="clock-box">
+                <span id="clock-box-inside-text">
+                </span>
+                <div id="clock"></div>
+            </div>
+            <canvas id="canvas" width="1100" height="680"></canvas>
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
